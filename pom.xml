@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.eldorado.hhzze</groupId>
-	<artifactId>nutricional-monitoring</artifactId>
+	<artifactId>nutritional-monitoring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>nutricional-monitoring</name>
+	<name>nutritional-monitoring</name>
 	<description>Second Week Eldorado&apos;s Training</description>
 	<properties>
 		<java.version>19</java.version>
@@ -36,6 +36,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
