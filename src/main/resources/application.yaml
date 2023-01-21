@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  name: "Nutritional Monitoring"
+
+spring:
+  data:
+    auto-index-creation: true
+    uri: mongodb://localhost:27017/nutritional-monitoring?retryWrites=true&w=majority
