@@ -13,11 +13,11 @@ import java.util.UUID;
 @Builder
 @EqualsAndHashCode
 @ToString
-@Document("nutritional-monitoring")
+@Document("measurement-document")
 public class MeasurementEntity {
     @Id
     private UUID id;
-    private UUID customerEntityId;
+    private UUID customerId;
     private Float weight;
     private Float height;
     private LocalDateTime measurementDate;
