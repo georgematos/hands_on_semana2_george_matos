@@ -13,8 +13,8 @@ import java.util.UUID;
 @Slf4j
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/nutritional-monitoring")
-public class NutritionalMonitoringController {
+@RequestMapping("/nutritional-monitoring/customer")
+public class CustomerController {
     private final CustomerService customerService;
 
     @PostMapping

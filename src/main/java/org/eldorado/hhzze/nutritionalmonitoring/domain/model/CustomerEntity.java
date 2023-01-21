@@ -13,7 +13,7 @@ import java.util.UUID;
 @Builder
 @EqualsAndHashCode
 @ToString
-@Document("nutritional-monitoring")
+@Document("customer-document")
 public class CustomerEntity {
     @Id
     private UUID id;
