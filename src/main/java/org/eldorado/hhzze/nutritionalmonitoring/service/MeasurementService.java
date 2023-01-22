@@ -2,6 +2,7 @@ package org.eldorado.hhzze.nutritionalmonitoring.service;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.eldorado.hhzze.nutritionalmonitoring.domain.model.ImcInfoEntity;
 import org.eldorado.hhzze.nutritionalmonitoring.domain.model.MeasurementEntity;
 import org.eldorado.hhzze.nutritionalmonitoring.domain.repository.MeasurementRepository;
 import org.eldorado.hhzze.nutritionalmonitoring.dto.MeasurementDto;
